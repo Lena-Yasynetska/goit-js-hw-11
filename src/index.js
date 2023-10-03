@@ -5,11 +5,9 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 const searchForm = document.getElementById('search-form');
 const gallery = document.querySelector('.gallery');
 const KEY = '39794578-bfbb0734c6ad56ff0654512ba',
-//const KEY = 39794578-bfbb0734c6ad56ff0654512ba,
-// let query = '';
-// let page = 1;
-// const query = '';
-// const page = 1;
+
+let query = '';
+let page = 1;
 
 let simpleLightBox = new SimpleLightbox('.gallery a');
 let allPagesLoaded = false;
@@ -40,14 +38,7 @@ function renderGallery(images) {
     .join('');
 
   gallery.insertAdjacentHTML('beforeend', markup);
-  const { height: cardHeight } = document
-    .querySelector('.gallery')
-    .firstElementChild.getBoundingClientRect();
-    window.scrollBy({
-        top: cardHeight * 2,
-        behavior: 'smooth',
-      });
-    }
+}
 
     function onSearchForm(e) {
         e.preventDefault();
@@ -156,20 +147,3 @@ function checkIfEndOfPage() {
       pulseNormalize: 1,
       touchpadSupport: true,
 })
-
-
-// async function fetchPix(requenstWord) {
-//     const BASE_URL = `https://pixabay.com/api`;
-//     const API_KEY = 39794578-bfbb0734c6ad56ff0654512ba,
-//        key: API_KEY,
-//        q: requenstWord,
-//        image_type: `photo`,
-//        orientation: `horizontal`,
-//        safesearch: true,
-//        page: pageNum,
-//        per_page: 40,
-// };
-//     const response = await axios.get(BASE_URL, options);
-//     return response;
-
-// export { fetchImageByRequest };
