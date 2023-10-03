@@ -6,8 +6,8 @@ const searchForm = document.getElementById('search-form');
 const gallery = document.querySelector('.gallery');
 const KEY = '39794578-bfbb0734c6ad56ff0654512ba',
 //const KEY = 39794578-bfbb0734c6ad56ff0654512ba,
-let query = '';
-let page = 1;
+// let query = '';
+// let page = 1;
 // const query = '';
 // const page = 1;
 
