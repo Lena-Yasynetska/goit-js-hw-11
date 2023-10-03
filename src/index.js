@@ -4,9 +4,9 @@ import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 const searchForm = document.getElementById('search-form');
 const gallery = document.querySelector('.gallery');
-const KEY = '39794578-bfbb0734c6ad56ff0654512ba',
+const KEY = '39758171-454faa2ce1768c54f925ff819',
 //const KEY = 39794578-bfbb0734c6ad56ff0654512ba,
-let query = '';
+//let query = '';
 let page = 1;
 
 let simpleLightBox = new SimpleLightbox('.gallery a');
