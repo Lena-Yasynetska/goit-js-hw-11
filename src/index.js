@@ -1,6 +1,6 @@
 import axios from "axios";
 import Notiflix from 'notiflix';
-import throttle  from "lodash.throttle";
+//import throttle  from "lodash.throttle";
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 
