@@ -1,6 +1,4 @@
 
-
-
 import axios from 'axios';
 import { pageNum } from "notiflix";
 import SimpleLightbox from 'simplelightbox';
