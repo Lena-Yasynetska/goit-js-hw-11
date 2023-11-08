@@ -103,7 +103,6 @@ function onloadMore() {
     })
     .catch(error => console.log(error));
 }
-
 function checkIfEndOfPage() {
     return (
         window.innerHeight + window.scrollY >=
